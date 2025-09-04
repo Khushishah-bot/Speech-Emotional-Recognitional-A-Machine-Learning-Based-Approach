@@ -1,0 +1,2 @@
+# Speech-Emotional-Recognitional-A-Machine-Learning-Based-Approach
+Speech Emotional Recognition(SER) system that classifies emotions and predicts intensity from voice,. Using RAVDESS dataset, features(MFCC, Chrome, Mel Spectrogram) are extracted with Librosa and modeled with random forest. Supported real time prediction, reliable accuracy, and application in HCI, mental health, and virtual assistants.
