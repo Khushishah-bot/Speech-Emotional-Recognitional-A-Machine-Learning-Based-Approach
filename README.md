@@ -1,9 +1,14 @@
 # Speech-Emotional-Recognitional-A-Machine-Learning-Based-Approach
 Speech Emotional Recognition(SER) system that classifies emotions and predicts intensity from voice,. Using RAVDESS dataset, features(MFCC, Chrome, Mel Spectrogram) are extracted with Librosa and modeled with random forest. Supported real time prediction, reliable accuracy, and application in HCI, mental health, and virtual assistants.
+<img width="966" height="643" alt="Screenshot 2025-09-01 120245" src="https://github.com/user-attachments/assets/f070a798-3908-4dc5-84ec-7436dcb7252a" />
+
+
 #  Speech Emotion Recognition - Implementation with Random Forest  
 
 ##  Project Overview  
-This project implements a Speech Emotion Recognition (SER) system using the RAVDESS dataset. It classifies emotions (happy, sad, angry, neutral) and predicts their intensity levels from both pre-recorded and real-time audio input.  
+This project implements a Speech Emotion Recognition (SER) system using the RAVDESS dataset. It classifies emotions (happy, sad, angry, neutral) and predicts their intensity levels from both pre-recorded and real-time audio input. 
+
+![Flow of SER](https://github.com/user-attachments/assets/6581a75f-b5d9-42a4-b453-9c082915e77c)
 
 ##  Features  
 - Supports **.WAV audio files** and **real-time microphone input**  
@@ -12,7 +17,10 @@ This project implements a Speech Emotion Recognition (SER) system using the RAVD
 - Dual-model approach:  
   - **Random Forest Classifier (RFC)** → Emotion classification  
   - **Random Forest Regressor (RFR)** → Emotion intensity prediction  
-- Provides accuracy, confusion matrix, and classification report  
+- Provides accuracy, confusion matrix, and classification report
+   <img width="932" height="572" alt="Screenshot 2025-05-07 190351" src="https://github.com/user-attachments/assets/e2fa7911-2748-4de4-a415-870e75a5060e" />
+
+
 
 ##  Dataset  
 - **RAVDESS dataset** with labeled emotional speech samples  
@@ -39,4 +47,4 @@ This project implements a Speech Emotion Recognition (SER) system using the RAVD
 - Emotion-aware virtual assistants  
 - Human-computer interaction systems  
 - Mental health monitoring tools  
-- Affective computing research  
+- Affective computing research
